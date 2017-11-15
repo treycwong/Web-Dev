@@ -1,8 +1,42 @@
-img {
-    width:240px;
-    height:140px;
+.articleImg {
+    width: 240px;
+    height: 140px;
     border: 4px solid white;
     background-size: cover;
     float: right;
     margin-right: 20px;
+}
+
+.carousel {
+    background: black;
+}
+
+.carousel {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    max-width: 1000px;
+    max-height: 600px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+
+.video {
+    display: block;
+    margin: auto;
+}
+
+#picfamily {
+    display: block;
+    float: right;
+    width: 300px;
+    height: 400px;
 }
