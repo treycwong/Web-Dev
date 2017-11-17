@@ -1,3 +1,78 @@
+body {
+    font-family: 'Khula', sans-serif;
+}
+
+nav {
+    background: rgba(255,255,255,0.9);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+h2, h3, h4, h5 {
+    margin-top: 20px;
+    padding-bottom: 8px;
+}
+
+p {
+    line-height: 24px;
+}
+
+.btn {
+    background-color: #A4560C;  /* Dark brown */
+    border-radius: 0;
+    border: none;
+    padding: 0.7em 1.2em 0.6em 1.2em;
+}
+
+.btn:hover {
+    background-color: #C56205;   /* Light brown */
+}
+
+.dropdown-menu {
+    border: none;
+    background: #674C3D;  /* Dark brown */
+    border-radius: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.dropdown-item:hover {
+    color: #fff;   
+    background: #8B6650;  /* Light brown */
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image:url(/img/headerimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+}
+
+.jumbotron .container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* Main Container */
+.container.content {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.section {
+    margin-top: 50px;
+}
+
 .articleImg {
     width: 240px;
     height: 140px;
@@ -25,7 +100,6 @@
     border: none;
 }
 
-
 .video {
     display: block;
     margin: auto;
@@ -36,4 +110,18 @@
     float: right;
     width: 300px;
     height: 400px;
+}
+
+footer#foo {
+    color: #fff;
+    background-color: #674C3D;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    margin-top:80px;
+}
+
+footer#foo p {
+    margin: 0;
 }
