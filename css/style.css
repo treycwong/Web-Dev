@@ -61,17 +61,18 @@ p {
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image:url(/img/headerimg.jpg);
+    background-image:url(/img/sanjuanoffice.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
     width: auto;
 }
 
 .jumbotron .container {
     display: block;
-    margin: auto;
+    margin: 50px auto;
+    color: white;
     text-align: center;
 }
 
@@ -79,14 +80,35 @@ p {
 .container.content {
     margin-top: 60px;
     margin-bottom: 0px;
+    padding: 0 50px;
 }
 
 .section {
     margin-top: 50px;
 }
 
+.section.testi {
+    margin-top: 0px;
+    background-color: #372B24;
+    color: white;
+    padding: 50px;
+    height: 300px;
+}
+
+.section.testi p {
+    padding: 0 60px;
+}
+
 #customer {
     font-weight: 600;
+}
+
+.carousel-item.testi {
+    padding: 0 60px;
+}
+
+.article {
+    padding-right: 40px;
 }
 
 .articleImg {
@@ -116,9 +138,18 @@ p {
     width: 100%;
 }
 
+#services-icon {
+    width: 80px;
+    height: 80px;
+}
+
 .video {
     display: block;
     margin: auto;
+}
+
+.row.video {
+    padding: 50px;
 }
 
 #picfamily {
@@ -131,6 +162,10 @@ p {
 blockquote.quote {
     margin:40px 0px;
     padding: 20px;
+}
+
+.appt {
+    padding: 30px;
 }
 
 footer#foo {
