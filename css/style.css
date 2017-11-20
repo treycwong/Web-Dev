@@ -59,21 +59,49 @@ p {
     background: #8B6650;  /* Light brown */
 }
 
+/* Jumbotron */
+
 .jumbotron {
-    margin-bottom: 0px;
+    height: 400px;
     background-image:url(/img/sanjuanoffice.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
     width: auto;
+    padding: 0px;
+}
+
+.animated {
+    -webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.jumbotron .bg-overlay {
+    height: 400px;
+    background: rgba(0,0,0,0.6);
+}
+
+.jumbotron:hover .bg-overlay {
+    height: 400px;
+    background: rgba(0,0,0,0.3);
 }
 
 .jumbotron .container {
-    display: block;
-    margin: 50px auto;
-    color: white;
+    position: relative;
+    top: 150px;
     text-align: center;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 20px;
 }
 
 /* Main Container */
