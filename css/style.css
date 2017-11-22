@@ -19,12 +19,15 @@ p {
     line-height: 24px;
 }
 
+/* Button */
+
 .btn {
     background-color: #A4560C;  /* Dark brown */
     border-radius: 0;
     border: none;
     padding: 0.7em 1.2em 0.6em 1.2em;
     color: #fff;
+    transition: all 0.5s ease;
 }
 
 .btn:hover {
@@ -52,6 +55,7 @@ p {
 .dropdown-item {
     color: #fff;
     padding: 10px 12px;
+    transition: all 0.5s ease;
 }
 
 .dropdown-item:hover {
@@ -60,7 +64,6 @@ p {
 }
 
 /* Jumbotron */
-
 .jumbotron {
     height: 400px;
     background-image:url(/img/sanjuanoffice.jpg);
@@ -115,6 +118,10 @@ p {
     margin-top: 50px;
 }
 
+.section.services {
+    margin-bottom: 100px;
+}
+
 .section.testi {
     margin-top: 0px;
     background-color: #372B24;
@@ -124,6 +131,7 @@ p {
 }
 
 .section.testi p {
+    margin-top: 20px;
     padding: 0 60px;
 }
 
@@ -208,4 +216,59 @@ footer#foo {
 
 footer#foo p {
     margin: 0;
+}
+
+/* ANIMATION */
+
+.fadeInUp {
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.fadeIn {
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+    
+    .jumbotron .container h1 {
+        font-size: 42px;
+    }
+    
+    .jumbotron .container p {
+        font-size: 16px;
+    }
+    
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    
+    .services .service-item {
+        margin-bottom: 50px;
+        flex-basis: 250px;
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    .section.testi {
+        width: auto;
+        height: auto;
+        padding: 30px 10px;
+    }
+    
+    .section.testi p {
+        margin-top: 5px;
+        padding: 10px;
+        line-height: 1.5;
+    }
+    
+    .section.contact {
+        padding: 10px;
+    }
 }
